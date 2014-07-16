@@ -1,5 +1,5 @@
-Node-red-flows-mobile-web-app
-=============================
+Node-RED Flow for mobile-web-app
+=================================
 
 A Node-RED (NR) Flow that contains an example mobile web app served from NR.  The mobile app is contained in a NR template and uses web sockets to commmunicate using the HTML ID of the UI widget and a value. To change the app copy node content to a good HTML editor.
 
