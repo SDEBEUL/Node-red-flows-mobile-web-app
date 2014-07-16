@@ -5,13 +5,13 @@ A Node-RED (NR) Flow that contains an example mobile web app served from NR.  Th
 
 // Message exchange json {id:"tsw-1", v: 1};
 Where ID is the HTML/Dom ID of the widget 
- <pre>
-  <label for="tsw-1">flip switch 1</label>
-	<select id="tsw-1" data-role="flipswitch" data-state="0" data-req="">
-	  <option value="0">Off</option>
-	  <option value="1">On</option>
-	</select>
- </pre>
+,,,
+<label for="tsw-1">flip switch 1</label>
+<select id="tsw-1" data-role="flipswitch" data-state="0" data-req="">
+   <option value="0">Off</option>
+   <option value="1">On</option>
+</select>
+,,,
 // Toggle flip switch 1 ON from Node-RED
 msg.payload = {id:"tsw-1", v: 1}; 
 
