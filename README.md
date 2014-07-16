@@ -18,7 +18,7 @@ msg.payload = {id:"tsw-1", v: 1};
 ``` 
 
 Process events and actions from mobile UI from WebSocket input node
-``` 
+```javascript 
 var obj = JSON.parse(msg.payload);
 delete msg.payload;
 delete msg._session;
