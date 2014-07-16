@@ -13,7 +13,9 @@ Where ID is the HTML/Dom ID of the widget
 </select>
 ```
 Toggle flip switch 1 ON from Node-RED
-`msg.payload = {id:"tsw-1", v: 1};` 
+```
+msg.payload = {id:"tsw-1", v: 1};
+``` 
 
 Process events and actions from mobile UI from WebSocket node
 ``` 
