@@ -13,16 +13,19 @@ Where ID is the HTML/Dom ID of the widget
 </select>
 ```
 // Toggle flip switch 1 ON from Node-RED
-msg.payload = {id:"tsw-1", v: 1}; 
+`msg.payload = {id:"tsw-1", v: 1};` 
 
 // Process events and actions from mobile UI from WebSocket node
+``` 
 var obj = JSON.parse(msg.payload);
 delete msg.payload;
 delete msg._session;
-
+```
 // toggle switch tsw-1	- output 1 
+```
 if(obj.id=="tsw-1"){
 	msg.id = obj.id; 	
 	msg.state = obj.v;	
 	return msg;
 }
+```
