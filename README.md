@@ -7,7 +7,7 @@ Message exchange json {id:"tsw-1", v: 1};
 Where ID is the HTML/DOM ID of the widget 
 ```
 <label for="tsw-1">flip switch 1</label>
-<select id="tsw-1" data-role="flipswitch" data-state="0" data-req="">
+<select <b>id="tsw-1"</b> data-role="flipswitch" data-state="0" data-req="">
    <option value="0">Off</option>
    <option value="1">On</option>
 </select>
