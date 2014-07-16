@@ -5,7 +5,7 @@ A Node-RED (NR) Flow that contains an example mobile web app served from NR.  Th
 
 Message exchange json {id:"tsw-1", v: 1};
 Where ID is the HTML/DOM ID of the widget 
-```
+```HTML
 <label for="tsw-1">flip switch 1</label>
 <select  id="tsw-1"  data-role="flipswitch">
    <option value="0">Off</option>
@@ -13,7 +13,7 @@ Where ID is the HTML/DOM ID of the widget
 </select>
 ```
 Example to toggle flip switch 1 On from Node-RED send following to WebSocket output node
-```
+```javascript
 msg.payload = {id:"tsw-1", v: 1};
 ``` 
 
