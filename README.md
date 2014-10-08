@@ -27,8 +27,7 @@ delete msg._session;
 
 // toggle switch tsw-1	- output 1 
 if(obj.id=="tsw-1"){
-	msg.id = obj.id; 	
-	msg.state = obj.v;	
+	msg.payload = {"id" : obj.id, "v": obj.v};	
 	return msg;
 }
 ```
