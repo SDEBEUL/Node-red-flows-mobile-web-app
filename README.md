@@ -1,6 +1,8 @@
 Node-RED Flow for mobile-web-app
 =================================
 
+Updated to support browser init request which tirgers onload/refresh/reconnect.
+
 A Node-RED (NR) Flow that contains an example mobile web app served from NR.  The mobile app is contained in a NR template and uses web sockets to commmunicate using the HTML/DOM ID of the UI widget and a value. To change the app copy node content to a good HTML editor. N.B. The app assumes your are using HTTPS so the web socket URI needs to chnaged to just ws if your using unsecure HTTP (line 20).
 
 Message exchange json `{id: ,v: }`
