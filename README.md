@@ -40,7 +40,7 @@ value:		val-nnn
 ```
 Shedule 			
 =================================
-Added a scheduler which the user can set 21 diffrent events each with a start time, end time and values.
+I've added a scheduler to the UI which the user can set 21 diffrent events each with a start time, end time and values.
 End times can be ignored to create one off events eg. one with just a start time.
 
 Create from Node-RED root a folder called **data** <br/>
