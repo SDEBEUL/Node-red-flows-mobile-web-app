@@ -53,3 +53,4 @@ Events that span two days are **Not** reset then, but when the end event is trig
 
 If an scheduled event has triggered and it's time is edited for a later period in the day it will **Not** run untill the next day. However this will probaly chnage to allow re-triggering of events. 
 
+![alt tag](http://industrialinternet.co.uk/wp-content/uploads/2013/03/schedule2-145x300.png)
