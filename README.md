@@ -47,10 +47,10 @@ Create from Node-RED root a folder called **data** <br/>
 Copy **schedule.json** to **data** folder <br/>
 Copy & paste **mobi_schedule_flow.json** to Node-RED workspace<br/>
 
-When a user commites changes from the broswer they are saved in **schedule.json**.
-The schedule is reset at just after midnight on a day transition.
-Events that span two days are **Not** reset then, but when the end event is triggered.
+When a user commits changes from the browser they are saved in **schedule.json**. 
+The schedule is reset at just after midnight on a day transition. Events that span two days are **Not** reset then, but when the end event is triggered.
 
-If an scheduled event has triggered and it's time is edited for a later period in the day it will **Not** run untill the next day. However this will probaly chnage to allow re-triggering of events. 
+If an scheduled event has triggered and it's time is edited for a later period in the day it will **Not** run until the next day. However this will probably change to allow re-triggering of events.
+
 
 ![alt tag](http://industrialinternet.co.uk/wp-content/uploads/2013/03/schedule2-145x300.png)
