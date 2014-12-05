@@ -52,6 +52,8 @@ Create from Node-RED root a folder called data
 Copy schedule.json to data folder
 Copy & paste mobi_scheduler_flow.json to a Node-RED workspace
 ```
+** If you already the moni ui intalled Either delete the flow completely or merge new flow to ensure there is only one Web socket in & out.  If old ones are left the app won't work!** 
+
 When a user commits changes from the browser they are saved in **schedule.json**. 
 The schedule is reset at just after midnight on a day transition. Events that span two days are **Not** reset then, but when the end event is triggered.
 
