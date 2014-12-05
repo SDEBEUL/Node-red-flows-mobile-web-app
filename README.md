@@ -40,7 +40,7 @@ flip-switch: 	tsw-nnn
 slider: 	sld-nnn
 value:		val-nnn
 ```
-Shedule 			
+Sheduler 			
 =================================
 I've added a scheduler to the UI which the user can set 21 diffrent events each with a start time, end time and values.
 End times can be ignored to create one off events eg. one with just a start time.
