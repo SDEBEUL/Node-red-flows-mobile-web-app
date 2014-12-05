@@ -44,9 +44,9 @@ I've added a scheduler to the UI which the user can set 21 diffrent events each 
 End times can be ignored to create one off events eg. one with just a start time.
 
 ```javascript
-Create from Node-RED root a folder called **data** <br/>
-Copy **schedule.json** to **data** folder <br/>
-Copy & paste **mobi_schedule_flow.json** to Node-RED workspace<br/>
+Create from Node-RED root a folder called data
+Copy schedule.json to data folder
+Copy & paste mobi_scheduler_flow.json to Node-RED workspace
 ```
 When a user commits changes from the browser they are saved in **schedule.json**. 
 The schedule is reset at just after midnight on a day transition. Events that span two days are **Not** reset then, but when the end event is triggered.
