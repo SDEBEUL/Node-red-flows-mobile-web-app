@@ -5,6 +5,8 @@ Node-RED Flow for mobile-web-app
 
 A Node-RED (NR) Flow that contains an example mobile web app served from NR.  The mobile app is contained in a NR template and uses web sockets to commmunicate using the HTML/DOM ID of the UI widget and a value. To change the app copy node content to a good HTML editor. N.B. The app assumes your are using HTTPS so the web socket URI needs to chnaged to just ws if your using unsecure HTTP (line 20).
 
+**To access this UI http://ip add of Node-RED:1880/mobiui**
+
 Message exchange json `{id: ,v: }`
 Where id is the HTML/DOM id of the widget 
 ```HTML
@@ -42,6 +44,8 @@ Shedule
 =================================
 I've added a scheduler to the UI which the user can set 21 diffrent events each with a start time, end time and values.
 End times can be ignored to create one off events eg. one with just a start time.
+
+**To access this UI http://ip add of Node-RED:1880/mobiuiShed**
 
 ```javascript
 Create from Node-RED root a folder called data
