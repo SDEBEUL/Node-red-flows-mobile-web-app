@@ -46,7 +46,7 @@ End times can be ignored to create one off events eg. one with just a start time
 ```javascript
 Create from Node-RED root a folder called data
 Copy schedule.json to data folder
-Copy & paste mobi_scheduler_flow.json to Node-RED workspace
+Copy & paste mobi_scheduler_flow.json to a Node-RED workspace
 ```
 When a user commits changes from the browser they are saved in **schedule.json**. 
 The schedule is reset at just after midnight on a day transition. Events that span two days are **Not** reset then, but when the end event is triggered.
